@@ -48,9 +48,9 @@ public class App
         	 fos = new FileOutputStream(file);
         	
         	restClient = RestClient.builder(
-        	        new HttpHost("39.105.82.158", 9200, "http"),
-        	        new HttpHost("39.105.90.42", 9200, "http"),
-        	        new HttpHost("39.105.92.61", 9200, "http")
+        	        new HttpHost("111.111.111.1", 9200, "http"),
+        	        new HttpHost("111.111.111.2", 9200, "http"),
+        	        new HttpHost("111.111.111.3", 9200, "http")
         	        ).build();
     		
   
